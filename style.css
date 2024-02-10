@@ -1,0 +1,164 @@
+* {
+    font-family:"Courier New", Courier, monospace;
+    text-align: center;
+    border-radius: 4px;
+}
+body {
+    background-color: white;
+}
+#mediaBody {
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    background-color: #279ee8;
+    padding: 15px;
+    margin: 4px;
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    align-items: center;
+}
+.navRight {
+    display: flex;
+}
+.logo {
+    display: flex;
+    margin-right: 40px;
+}
+.about {
+    margin-right: 3em;
+}
+.projects {
+    margin-right: 3em;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.tomza {
+    margin-top: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.navbar a:visited {
+    text-decoration: none;
+}
+.navbar a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar a:active {
+    text-decoration: none;
+}
+ol {
+    background-color:firebrick;
+}
+ul {
+    list-style-type: circle;
+}
+.projectsTable {
+    display: flex;
+    justify-content: center;
+}
+.projectsTable td, .projectsTable th {
+    padding: 5px;
+}
+.projectsTable td:hover {
+    background-color: firebrick;
+    color: white;
+}
+.projectsTable th:hover {
+    background-color: white;
+}
+.projectsTable a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.projectsTable a:hover {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+.stillCurious {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.stillCurious a {
+    color: white;
+    text-decoration: none;
+}
+.stillCurious a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.stillCurious ol {
+    list-style-type: decimal;
+}
+.stillCurious ul {
+    justify-content: center;
+    list-style-type: square;
+}
+.codeList {
+    display: flex;
+    justify-content: center;
+}
+.alias {
+    padding: 2em;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+}
+.alias a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: firebrick;
+}
+.alias a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.alias > strong {
+    color:#279ee8;
+}
+.mediaPage {
+    display: grid;
+    color: white;
+}
+.mediaPage img {
+    margin-bottom: 3em;
+    border-style: solid;
+    border-color: white;
+    padding: 2em;
+}
+h1 + .musicControl {
+    background-color: firebrick;
+}
+.caption ~ .poolsArt {
+    background-color: firebrick;
+}
+div[class~="tomza"] {
+    box-shadow: 10px 0 10px rgb(190, 190, 190);
+}
+.form {
+    max-width: 40em;
+    padding: 3em;
+    margin: 3em auto;
+    background-color: rgb(232, 232, 232);
+}
+input {
+    border: 2px solid #279ee8;
+}
+label {
+    color: black;  
+}
+ol li::after {
+    content: "!";
+}
+
+
