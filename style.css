@@ -160,5 +160,8 @@ label {
 ol li::after {
     content: "!";
 }
+.musicControl {
+    justify-content: center;
+}
 
 
