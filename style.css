@@ -160,8 +160,17 @@ label {
 ol li::after {
     content: "!";
 }
-.musicControl {
-    justify-content: center;
+.audioButton {
+    background-color: lightgray;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    width: 5em;
+}
+.audioButton:hover {
+    background-color: #279ee8;
+    font-weight: bold;
+    color: white;
 }
 
 
